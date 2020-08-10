@@ -1,0 +1,13 @@
+spring:
+  profiles: test
+logging:
+  level:
+    ca.umanitoba.*: DEBUG
+datahub:
+  countrycodefile: "classpath:test-country-codes.json"
+  locationfile: "classpath:cities.txt"
+database:
+  type: org.h2.Driver
+  username: test_user
+  password: test_pass
+  jdbcUrl: "jdbc:h2:mem:test_mem;DB_CLOSE_DELAY=-1"

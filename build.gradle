@@ -1,0 +1,52 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.7.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    id 'java'
+}
+
+group = 'ca.umanitoba.libraries'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    versions = [
+            commonsCodec: '1.14',
+            h2: '1.4.200',
+            jackson: '2.11.0',
+            junitJupiter: '5.6.2',
+            mysql: '8.0.20',
+            slf4j: '1.7.30',
+            spring: '5.2.6.RELEASE',
+    ]
+}
+dependencies {
+    implementation "commons-codec:commons-codec:${versions.commonsCodec}"
+    implementation "com.fasterxml.jackson.core:jackson-core:${versions.jackson}"
+    implementation "com.fasterxml.jackson.core:jackson-databind:${versions.jackson}"
+    implementation "com.fasterxml.jackson.core:jackson-annotations:${versions.jackson}"
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation "org.springframework.boot:spring-boot-starter-jdbc"
+    implementation "org.springframework:spring-context:${versions.spring}"
+    implementation "org.springframework:spring-beans:${versions.spring}"
+    implementation "org.springframework:spring-jdbc:${versions.spring}"
+    implementation "javax.inject:javax.inject:1"
+    implementation "org.slf4j:slf4j-api:${versions.slf4j}"
+    runtime "mysql:mysql-connector-java:${versions.mysql}"
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+    runtime "com.h2database:h2:${versions.h2}"
+    testImplementation "org.junit.jupiter:junit-jupiter:${versions.junitJupiter}"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+bootRun {
+    systemProperties = System.properties
+}

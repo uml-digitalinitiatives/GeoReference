@@ -1,0 +1,20 @@
+spring:
+  profiles: prod
+logging:
+  #file: log/student.log
+  #pattern:
+  #console: "%d %-5level %logger : %msg%n"
+  #file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    ca.umanitoba.*: INFO
+datahub:
+  # Use the "file:" prefix for the absolute path to your files.
+  # Country codes expects json.
+  countrycodefile: "file:/path/to/your/country-codes.json"
+  # Location expects GeoNames tab separated values.
+  locationfile: "file:/path/to/your/location.txt"
+database:
+  type: com.mysql.cj.jdbc.MysqlConnectionPoolDataSource
+  username: username
+  password: password
+  jdbcUrl: "jdbc:mysql://hostname:port/Database"

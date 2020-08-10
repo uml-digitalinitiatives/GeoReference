@@ -1,0 +1,7 @@
+5933126	Cross Lake	Cross Lake		49.8297	-95.20189	P	PPLL	CA		03				0		341	America/Winnipeg	2008-04-11
+6183235	Winnipeg	Winnipeg	Gouinipenk,Uinipeg,Uinnipeg,Vinipeg,Vinipega,Vinipegas,Vinipego,Vinnipeg,Vinnipega,Vinnipeq,WPG,Winnipeg,Winnipeg City,Winnipég,YWG,u~inipegu,vinipaiga,vinipega,vinippek,wen ni bo,win ni phek,winipeg,wny pyg,wnypg,wynybygh,wynypg,Γουίνιπεγκ,Винипег,Виннипег,Вінніпег,Вінніпеґ,Вініпег,Уинипег,Уиннипег,Վիննիպեգ,ויניפג,ونی پیگ,ونیپگ,وينيبيغ,وینیپگ,विनिपेग,ਵਿਨੀਪੈਗ,வினிப்பெக்,วินนิเพก,ဝင်နီပက်မြို့,უინიპეგი,ᐄᐧᓂᐯᐠ,ウィニペグ,温尼伯,위니펙	49.8844	-97.14704	P	PPLA	CA		03				632063		245	America/Winnipeg	2019-09-05
+3424953	Virgin Rocks	Virgin Rocks		46.42886	-50.81995	U	RFU	CA		05				0		-9999		2018-02-20
+3425041	Eastern Shoals	Eastern Shoals		46.44743	-50.48577	U	SHSU	CA		05				0		-9999		2018-02-20
+3426061	Downing Basin	Downing Basin		47.05216	-50.79163	U	TRGU	CA		05				0		-9999		2018-02-20
+3831549	Kane Basin	Kane Basin	Bassin Kane,Kane Basin	79.3886	-70.42541	H	STRT	CA	GL	14				0		-9999		2018-06-04
+3831631	Georges Shoal	Georges Shoal	Georges Bank,St. George's Bank,St. George's Shoal	41.65444	-67.73242	U	SHLU	CA	US					0		-9999		2018-02-20
